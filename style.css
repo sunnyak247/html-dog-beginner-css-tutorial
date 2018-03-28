@@ -1,9 +1,27 @@
 body {
-  font-size: 14px;
   color: navy;
+  font-family: arial, helvetica, serif;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 h1 {
   color: yellow;
   background-color: blue;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: underline;
+}
+
+strong {
+  font-style: italic;
+  text-transform: uppercase;
 }
