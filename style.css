@@ -74,6 +74,9 @@ li {
     text-align: justify;
 }
 
-table {
+table, th, tr, td {
     background-color: #ccc;
+     border-style: dashed;
+    border-width: 2px;
+    border-color: red;
 }
