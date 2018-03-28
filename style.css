@@ -25,3 +25,10 @@ strong {
   font-style: italic;
   text-transform: uppercase;
 }
+
+p, li {
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+    line-height: 1.5;
+    text-align: justify;
+}
