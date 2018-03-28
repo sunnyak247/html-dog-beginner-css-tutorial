@@ -1,16 +1,28 @@
 body {
-  color: navy;
-  font-family: arial, helvetica, serif;
+  color: black;
+  font-family: arial, helvetica, sans-serif;
   font-weight: 300;
   font-size: 14px;
+  background-color: #ffc;
+  margin: 20px;
+  padding: 0;
 }
 
 h1 {
-  color: yellow;
-  background-color: blue;
+  color: #ffc;
+  background-color: #900;
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 4px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.5em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5em;
+  border-bottom-color: #c00;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2em;
 }
 
 h2 {
@@ -20,13 +32,25 @@ h2 {
   border-right-width: 10px;
   border-color: red;
   font-size: 1.5em;
-  background-color: #ccc;
-  margin: 20px;
-  padding: 40px;
+  background-color: #090;
+  margin: 0;
+  padding: 2px
+  padding-left: 14px;
+ }
+
+h3 {
+    color: #999;
+    font-size: 1.25em;
 }
 
 a {
   text-decoration: underline;
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
 }
 
 strong {
@@ -34,9 +58,22 @@ strong {
   text-transform: uppercase;
 }
 
-p, li {
+p {
     letter-spacing: 0.1em;
     word-spacing: 0.3em;
     line-height: 1.5;
     text-align: justify;
+}
+
+li {
+    color: #900;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+table {
+    background-color: #ccc;
 }
